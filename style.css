@@ -1,0 +1,171 @@
+body{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#pad-bottom{
+    padding-bottom: 200px;
+}
+.navbar{
+    width: 30%;
+    float:right;
+    margin-left: 5%;
+}
+.navbar,ul,li,a{
+    
+    display: inline-block;
+    padding: 8px;
+    font-size: 18px;
+    color: orange;
+    
+    text-decoration: none;
+
+}
+.text-big{
+    font-size: 40px;
+}
+.text-orange{
+    color: orange;
+} 
+.header-section{
+
+    clear: both;
+    overflow: hidden;
+}
+
+#left-header{
+    margin-top: 10%;
+}
+.half-header{
+    width: 40%;
+    margin-left: 3%;
+    float: left;
+    padding-left: 2%;
+}
+.half-header img{
+    width: 100%;
+    height: 100%;
+    
+}
+.half-header button{
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+}
+.half-header button a{
+    text-decoration: none;
+    font-size:16px;
+    text-align: center;
+    color: whitesmoke;
+}
+.about-section{
+    clear: both;
+    
+    overflow: hidden;
+}
+
+.project-section{
+    clear: both;
+    overflow: hidden;
+    padding-top: 100px;
+    margin-top: 100px;
+    background-color: #DDF2F4;
+    
+}
+.project-section h1{
+    text-align: center;
+}
+.cards-group{
+    margin-top: 100px;
+}
+.card{
+    width: 20%;
+    height: 30%;
+    border: none;
+    border-radius: 20px;
+    background-color: honeydew;
+    box-shadow: 5px 5px 5px 5px #FFFFFF;
+    margin-bottom: 100px;
+    float: left;
+    margin-left: 4%;
+    padding: 4%;
+    
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.align{
+    text-align: left;
+}
+.inquiry-section{
+    clear: both;
+    overflow: hidden;
+    padding:100px;
+}
+.inquiry-box {
+    width: 60%;
+    padding: 10% 5% 10% 5%;
+    background-color: aquamarine;
+    margin: 100px auto;
+    border-radius: 50px
+    
+}
+.inquiry-text {
+    float: left;
+    width: 35%;
+    
+    margin-top:-8%;
+}
+.inquiry-text h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.inquiry-button {
+    width: 20%;
+    float: right;
+    margin-top: -5%;
+    
+}
+.inquiry-button button{
+    padding:20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ee6c6c;
+    border: none;
+  
+}
+.inquiry-button button a{
+    color: white;
+}
+footer{
+    margin-top: -10%;
+}
+.connected {
+    width: 30%;
+    margin: 10px auto;
+  
+}
+.connected p{
+    text-align: center;
+    font-size: 35px;
+}
+.connected h4 a{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 23%;
+}
+.icons {
+    width: 20%;
+    margin: 10px auto;
+    padding-left: 6%;
+}
+.icons img{
+    width:60px;
+    height: 60;
+    
+}
+
