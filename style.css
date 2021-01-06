@@ -103,12 +103,15 @@ body{
 .inquiry-section{
     clear: both;
     overflow: hidden;
+    
     padding:100px;
 }
 .inquiry-box {
     width: 60%;
     padding: 10% 5% 10% 5%;
     background-color: aquamarine;
+    background-image: url('shapes/Group_33094_1.png');
+    background-size: cover;
     margin: 100px auto;
     border-radius: 50px
     
@@ -127,6 +130,7 @@ body{
 .inquiry-button {
     width: 20%;
     float: right;
+
     margin-top: -5%;
     
 }
