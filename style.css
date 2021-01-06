@@ -6,9 +6,11 @@ body{
 #pad-bottom{
     padding-bottom: 200px;
 }
+
 .navbar{
     width: 30%;
     float:right;
+    
     margin-left: 5%;
 }
 .navbar,ul,li,a{
@@ -16,10 +18,16 @@ body{
     display: inline-block;
     padding: 8px;
     font-size: 18px;
+    font-weight: 500;
     color: orange;
     
     text-decoration: none;
 
+}
+
+/* header section starts */
+.header-section{
+background-color: palegoldenrod;
 }
 .text-big{
     font-size: 40px;
@@ -60,12 +68,65 @@ body{
     text-align: center;
     color: whitesmoke;
 }
+
+
+/* about section starts */
 .about-section{
     clear: both;
-    
+    margin-top: 100px;
+ 
     overflow: hidden;
 }
 
+/* hobbies and interest section starts */
+.hobbies-section {
+    clear: both;
+    overflow: hidden;
+    margin-top: 130px;
+    background-color:#c5e5ec;
+    padding: 40px;
+}
+.hobbs-group {
+    width: 80%;
+ 
+    margin: 100px auto;
+}
+.hobbies-title{
+    margin: 10px auto;
+    width: 40%;
+
+}
+.hobbies-title h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.single-hobbies{
+    width: 28%;
+    margin-left: 2%;
+    float: left;
+    padding-left: 2%;
+}
+.single-hobbies h3{
+    text-align: center;
+    width: 50%;
+    background-image: linear-gradient(45deg,lightsalmon, tomato) ;
+    border: none;
+    border-radius: 2px  grey;
+    color: white;
+    padding: 10px;
+}
+.single-hobbies img{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+
+
+/* .    project-section starts         */
 .project-section{
     clear: both;
     overflow: hidden;
@@ -100,6 +161,11 @@ body{
 .align{
     text-align: left;
 }
+
+
+
+
+   /* inquiry section starts */
 .inquiry-section{
     clear: both;
     overflow: hidden;
@@ -145,8 +211,13 @@ body{
 .inquiry-button button a{
     color: white;
 }
+
+
+/* footer section starts */
 footer{
     margin-top: -10%;
+    padding: 10px;
+    background-color: rgb(169, 240, 169);
 }
 .connected {
     width: 30%;
